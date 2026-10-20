@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "SpotyLuis",
+  "short_name": "SpotyLuis",
+  "description": "Reproductor de música de alta fidelidad con ecualizador de 10 bandas, sincronización e importador de canciones.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "categories": ["music", "entertainment", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ecualizador",
+      "short_name": "EQ",
+      "description": "Ajustar ecualizador de 10 bandas",
+      "url": "/?view=equalizer",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Carpetas Locales",
+      "short_name": "Carpetas",
+      "description": "Explorar música por carpetas",
+      "url": "/?view=explorer",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

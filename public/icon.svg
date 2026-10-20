@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="50%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#052e16" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#10b981" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+
+  <!-- Outer Vinyl Rim -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#27272a" stroke-width="8" opacity="0.6" />
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#3f3f46" stroke-width="4" opacity="0.4" />
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#52525b" stroke-width="3" opacity="0.3" />
+
+  <!-- Glowing Soundwave Bars -->
+  <g filter="url(#shadow)">
+    <!-- Bar 1 -->
+    <rect x="148" y="210" width="24" height="92" rx="12" fill="url(#glow)" />
+    <!-- Bar 2 -->
+    <rect x="188" y="160" width="24" height="192" rx="12" fill="url(#glow)" />
+    <!-- Bar 3 (Center) -->
+    <rect x="228" y="120" width="24" height="272" rx="12" fill="url(#glow)" />
+    <!-- Bar 4 (Center + 1) -->
+    <rect x="268" y="150" width="24" height="212" rx="12" fill="url(#glow)" />
+    <!-- Bar 5 -->
+    <rect x="308" y="190" width="24" height="132" rx="12" fill="url(#glow)" />
+    <!-- Bar 6 -->
+    <rect x="348" y="230" width="24" height="52" rx="12" fill="url(#glow)" />
+  </g>
+
+  <!-- High-Fidelity Badge Dot -->
+  <circle cx="380" cy="132" r="14" fill="#10b981" />
+  <circle cx="380" cy="132" r="6" fill="#ffffff" />
+</svg>

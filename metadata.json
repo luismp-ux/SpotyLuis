@@ -1,0 +1,6 @@
+{
+  "name": "Aura Hi-Fi Music",
+  "description": "Reproductor de música local de alta fidelidad con ecualizador de 10 bandas, letras sincronizadas, organizador por carpetas/álbumes, sincronización en la nube e importador de YouTube Music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
